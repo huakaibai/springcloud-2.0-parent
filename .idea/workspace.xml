@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/pom.xml" description="         xsi:schemaLocation=&quot;http://maven.apache.o..." line="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2d64700-62fe-4cb8-8f2b-a6f1d10b1b54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-08-11T110508.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-08-11T110915.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-08-11T111352.200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/spring-cloud-2.0-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/springcloud20eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/java/com/zhibinwang/eureka/AppEureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/target/classes/com/zhibinwang/eureka/AppEureka.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/springcloud20zhibinwangapimemberserviceimpl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/AppMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/classes/com/zhibinwang/service/AppMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/classes/com/zhibinwang/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/springcloud20zhibinwangapiorderserviceimpl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/AppOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/IMemberFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/MemberFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/impl/OrderSeriviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/AppOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/feign/IMemberFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/feign/MemberFeignFallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/impl/OrderSeriviceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/springcloud20zhibinwangapimemberservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/target/classes/com/zhibinwang/api/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/target/classes/com/zhibinwang/api/service/IMemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/springcloud20zhibinwangapiorderservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/src/main/java/com/zhibinwang/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/target/classes/com/zhibinwang/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud20zhibinwangapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/springcloud20zhibinwangcommon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java/com/itmayiedu/base/BaseApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java/com/itmayiedu/base/ResponseBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/target/classes/com/itmayiedu/base/BaseApiService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/target/classes/com/itmayiedu/base/ResponseBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/AppConfigClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/classes/com/zhibinwang/config/client/AppConfigClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/classes/com/zhibinwang/config/client/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/java/com/zhibinwang/config/AppConfigServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/target/classes/com/zhibinwang/config/AppConfigServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/AppZuul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/classes/com/zhibinwang/zuul/AppZuul.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/classes/com/zhibinwang/zuul/TokenFilter.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-2.0-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/impl/OrderSeriviceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/AppOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/TokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/AppZuul.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/MemberFeignFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IMemberService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getUserinfo</find>
+      <find>app-itmayiedu-member</find>
+      <find>app-itmayiedu-order</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IMemverService.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/AppMember.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/MemberFeign.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/src/main/java/com/zhibinwang/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-2.0-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/AppOrder.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IMemberService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/java/com/zhibinwang/config/AppConfigServer.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/AppConfigClient.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/IndexController.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/IMemberFeign.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/MemberFeignFallback.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/impl/OrderSeriviceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/AppZuul.java" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/TokenFilter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="190" />
+    <option name="width" value="1600" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-2.0-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-2.0-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\springcloud-2.0-parent\springcloud-2.0-zhibinwang-common\src\main\java" />
+      <recent name="D:\idea\springcloud-2.0-parent" />
+      <recent name="D:\idea\springcloud-2.0-parent\springcloud-2.0-zhibinwang-api-order-service-impl\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8882" />
+          <option name="urlPath" value="/actuator/refresh" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AppOrder">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConfigClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud20zhibinwangconfigclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhibinwang.config.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhibinwang.config.client.AppConfigClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-2.0-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhibinwang.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhibinwang.eureka.AppEureka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="springcloud20zhibinwangapimemberserviceimpl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhibinwang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhibinwang.service.AppMember" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppOrder" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud20zhibinwangapiorderserviceimpl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhibinwang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhibinwang.service.AppOrder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppZuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud20zhibinwangzuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhibinwang.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhibinwang.zuul.AppZuul" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AppEureka" />
+      <item itemvalue="Spring Boot.AppMember" />
+      <item itemvalue="Spring Boot.AppOrder" />
+      <item itemvalue="Spring Boot.AppConfigClient" />
+      <item itemvalue="Spring Boot.AppZuul" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppZuul" />
+        <item itemvalue="Spring Boot.AppOrder" />
+        <item itemvalue="Spring Boot.AppMember" />
+        <item itemvalue="Spring Boot.AppEureka" />
+        <item itemvalue="Spring Boot.AppConfigClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2d64700-62fe-4cb8-8f2b-a6f1d10b1b54" name="Default Changelist" comment="" />
+      <created>1565278584815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565278584815</updated>
+      <workItem from="1565278587986" duration="2491000" />
+      <workItem from="1565483591461" duration="11149000" />
+      <workItem from="1565703518643" duration="2894000" />
+      <workItem from="1565706512457" duration="264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16798000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44906166" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32064423" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.3196481" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329429" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="REST Client" order="15" weight="0.61346996" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43699732" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38945827" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329429" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/impl/OrderSeriviceImpl.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/src/main/java/com/zhibinwang/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.1.RELEASE/spring-boot-dependencies-2.0.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="2337" column="12" selection-start-line="2337" selection-start-column="12" selection-end-line="2337" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java/com/itmayiedu/base/ResponseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java/com/itmayiedu/base/BaseApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/java/com/zhibinwang/eureka/AppEureka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar!/org/yaml/snakeyaml/parser/ParserImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="499" selection-start-line="499" selection-end-line="499" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/AppMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-2.0-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/java/com/zhibinwang/config/AppConfigServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/AppConfigClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/IMemberFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/impl/OrderSeriviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/AppOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/AppZuul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/MemberFeignFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

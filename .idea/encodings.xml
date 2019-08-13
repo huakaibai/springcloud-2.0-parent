@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-2.0-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul" charset="UTF-8" />
+  </component>
+</project>
