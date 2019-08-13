@@ -4,84 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/pom.xml" description="         xsi:schemaLocation=&quot;http://maven.apache.o..." line="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2d64700-62fe-4cb8-8f2b-a6f1d10b1b54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-08-11T110508.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-08-11T110915.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-08-11T111352.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/spring-cloud-2.0-eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/springcloud20eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/java/com/zhibinwang/eureka/AppEureka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-2.0-eureka/target/classes/com/zhibinwang/eureka/AppEureka.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/springcloud20zhibinwangapimemberserviceimpl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/AppMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/java/com/zhibinwang/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/classes/com/zhibinwang/service/AppMember.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-member-service-impl/target/classes/com/zhibinwang/service/impl/MemberServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/springcloud20zhibinwangapiorderserviceimpl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/AppOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/IMemberFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/feign/MemberFeignFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/java/com/zhibinwang/service/impl/OrderSeriviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/AppOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/feign/IMemberFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/feign/MemberFeignFallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/classes/com/zhibinwang/service/impl/OrderSeriviceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/springcloud20zhibinwangapimemberservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/src/main/java/com/zhibinwang/api/service/IMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/target/classes/com/zhibinwang/api/entity/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-member-service/target/classes/com/zhibinwang/api/service/IMemberService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/springcloud20zhibinwangapiorderservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/src/main/java/com/zhibinwang/service/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud-2.0-zhibinwang-api-order-service/target/classes/com/zhibinwang/service/IOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api/springcloud20zhibinwangapi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/springcloud20zhibinwangcommon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java/com/itmayiedu/base/BaseApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/src/main/java/com/itmayiedu/base/ResponseBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/target/classes/com/itmayiedu/base/BaseApiService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-common/target/classes/com/itmayiedu/base/ResponseBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/AppConfigClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/java/com/zhibinwang/config/client/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/classes/com/zhibinwang/config/client/AppConfigClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-client/target/classes/com/zhibinwang/config/client/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/java/com/zhibinwang/config/AppConfigServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-config-server/target/classes/com/zhibinwang/config/AppConfigServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/AppZuul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/java/com/zhibinwang/zuul/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/classes/com/zhibinwang/zuul/AppZuul.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-2.0-zhibinwang-zuul/target/classes/com/zhibinwang/zuul/TokenFilter.class" afterDir="false" />
-    </list>
+    <list default="true" id="b2d64700-62fe-4cb8-8f2b-a6f1d10b1b54" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-2.0-zhibinwang-api-order-service-impl/target/" />
@@ -510,17 +433,25 @@
       <workItem from="1565278587986" duration="2491000" />
       <workItem from="1565483591461" duration="11149000" />
       <workItem from="1565703518643" duration="2894000" />
-      <workItem from="1565706512457" duration="264000" />
+      <workItem from="1565706512457" duration="516000" />
     </task>
+    <task id="LOCAL-00001" summary="one commit">
+      <created>1565706968691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565706968691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16798000" />
+    <option name="totallyTimeSpent" value="17050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44906166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44906166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,7 +469,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.3196481" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.3196481" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329429" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -593,6 +524,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="one commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="one commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,8 +829,6 @@
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
           </folding>
         </state>
       </provider>
