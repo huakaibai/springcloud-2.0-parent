@@ -6,7 +6,12 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.zhibinwang.api.entity.UserEntity;
 import com.zhibinwang.service.IOrderService;
 import com.zhibinwang.service.feign.IMemberFeign;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,13 +22,17 @@ import org.springframework.web.bind.annotation.RestController;
  * @desc
  **/
 @RestController
+@Api("订单使用类")
 public class OrderSeriviceImpl extends BaseApiService implements IOrderService {
 
     @Autowired
     private IMemberFeign memberFeign;
 
     @Override
-    @RequestMapping("/getOrder")
+    @GetMapping("/getOrder")
+    @ApiOperation(value = "获取订单")
+    @ApiImplicitParam(paramType = "path",name = "name",value = "用户姓名",required = true)
+    @ApiResponse(code = 200,response = String.class,message = "成功")
     public  String getOrder( @RequestParam(value = "name") String name){
 
         UserEntity member = memberFeign.getMember(name);

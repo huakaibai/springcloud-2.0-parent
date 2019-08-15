@@ -2,10 +2,11 @@ package com.zhibinwang.service.impl;
 
 import com.zhibinwang.api.entity.UserEntity;
 import com.zhibinwang.api.service.IMemberService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author 花开
@@ -13,13 +14,16 @@ import org.springframework.web.bind.annotation.RestController;
  * @desc
  **/
 @RestController
+@Api("Memmber使用类")
 public class MemberServiceImpl implements IMemberService {
 
 
     @Value("${server.port}")
     private String port;
 
-    @RequestMapping("/getMember")
+    @PostMapping("/getMember")
+    @ApiOperation(value = "获取会员")
+    @ApiImplicitParam(paramType = "path",name = "name",value = "用户姓名",required = true)
     public UserEntity getMember( @RequestParam("name") String name) {
         UserEntity userEntity = new UserEntity();
         userEntity.setName(name);
@@ -28,7 +32,8 @@ public class MemberServiceImpl implements IMemberService {
         return userEntity;
     }
 
-    @RequestMapping("/getUserinfo")
+    @GetMapping("/getUserinfo")
+    @ApiOperation(value = "获取用户信息")
     public String getUserinfo() {
         System.out.println("getUserInfo");
         try {

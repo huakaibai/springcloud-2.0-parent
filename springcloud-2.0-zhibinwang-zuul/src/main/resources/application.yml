@@ -9,17 +9,24 @@ server:
 spring:
   application:
     name: service-zuul
-### 配置网关反向代理
-zuul:
-  routes:
-    api-a:
-      ### 以 /api-member/访问转发到会员服务
-      path: /api-member/**
-      serviceId: app-itmayiedu-member
-    api-b:
-      ### 以 /api-order/访问转发到订单服务
-      path: /api-order/**
-      serviceId: app-itmayiedu-order
+  cloud:
+    config:
+      ####读取后缀
+      profile: dev
+      ####读取config-server注册地址
+      discovery:
+        service-id: config-server
+        enabled: true
+
+###默认服务读取eureka注册服务列表 默认间隔30秒
+
+###开启所有监控中心接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 # 开启ribbon超时配置,不然可能服务降级不生效
 ribbon:
   ReadTimeout: 60000

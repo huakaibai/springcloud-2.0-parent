@@ -17,6 +17,7 @@
         <module>springcloud-2.0-zhibinwang-config-server</module>
         <module>springcloud-2.0-zhibinwang-config-client</module>
         <module>springcloud-2.0-zhibinwang-zuul</module>
+        <module>springcloud-2.0-zhibinwang-swagger2</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
