@@ -10,6 +10,12 @@ spring:
       discovery:
         service-id: config-server
         enabled: true
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+    virtual-host: /bus
+    port: 5672
 #####    eureka服务注册地址
 eureka:
   client:
@@ -23,5 +29,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*" ## 监控一切数据
+        include: bus-refresh ## 使用消息总线刷新
+      ## include: "*" ## 监控一切数据
 

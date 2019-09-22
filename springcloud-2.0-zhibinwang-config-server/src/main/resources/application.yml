@@ -17,6 +17,9 @@ spring:
             - config
       ####读取分支
         label: master
+
 ####端口号
 server:
   port: 8888
+
+

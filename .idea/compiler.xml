@@ -2,30 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-2.0-zhibinwang-zuul" />
         <module name="springcloud20zhibinwangzuul" />
         <module name="spring-cloud-2.0-eureka" />
-        <module name="springcloud20zhibinwangapimemberserviceimpl" />
+        <module name="springcloud-2.0-zhibinwang-config-client" />
+        <module name="springcloud-2.0-zhibinwang-swagger2" />
         <module name="springcloud-2.0-zhibinwang-api-member-service" />
-        <module name="springcloud20zhibinwangapiorderservice" />
+        <module name="springcloud20zhibinwangapimemberserviceimpl" />
         <module name="springcloud20zhibinwangswagger2" />
-        <module name="springcloud20zhibinwangapiorderserviceimpl" />
-        <module name="springcloud-2.0-zhibinwang-zuul" />
+        <module name="springcloud-2.0-zhibinwang-api-order-service" />
+        <module name="springcloud20zhibinwangconfigserver" />
         <module name="springcloud20zhibinwangconfigclient" />
         <module name="springcloud-2.0-zhibinwang-config-server" />
         <module name="springcloud-2.0-zhibinwang-api-order-service-impl" />
         <module name="springcloud20zhibinwangapimemberservice" />
-        <module name="springcloud20zhibinwangconfigserver" />
-        <module name="springcloud-2.0-zhibinwang-api-order-service" />
+        <module name="springcloud20zhibinwangapiorderserviceimpl" />
+        <module name="springcloud-20-zhibinwang-pay" />
         <module name="springcloud-2.0-zhibinwang-common" />
         <module name="springcloud-2.0-zhibinwang-api-member-service-impl" />
-        <module name="springcloud-2.0-zhibinwang-config-client" />
+        <module name="springcloud20zhibinwangapiorderservice" />
         <module name="springcloud20zhibinwangcommon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud20zhibinwangpay" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -37,7 +43,9 @@
       <module name="springcloud-2.0-zhibinwang-common" options="-parameters" />
       <module name="springcloud-2.0-zhibinwang-config-client" options="-parameters" />
       <module name="springcloud-2.0-zhibinwang-config-server" options="-parameters" />
+      <module name="springcloud-2.0-zhibinwang-swagger2" options="-parameters" />
       <module name="springcloud-2.0-zhibinwang-zuul" options="-parameters" />
+      <module name="springcloud-20-zhibinwang-pay" options="-parameters" />
       <module name="springcloud20zhibinwangapimemberservice" options="-parameters" />
       <module name="springcloud20zhibinwangapimemberserviceimpl" options="-parameters" />
       <module name="springcloud20zhibinwangapiorderservice" options="-parameters" />
@@ -45,6 +53,7 @@
       <module name="springcloud20zhibinwangcommon" options="-parameters" />
       <module name="springcloud20zhibinwangconfigclient" options="-parameters" />
       <module name="springcloud20zhibinwangconfigserver" options="-parameters" />
+      <module name="springcloud20zhibinwangpay" options="-parameters" />
       <module name="springcloud20zhibinwangswagger2" options="-parameters" />
       <module name="springcloud20zhibinwangzuul" options="-parameters" />
     </option>

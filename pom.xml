@@ -18,6 +18,7 @@
         <module>springcloud-2.0-zhibinwang-config-client</module>
         <module>springcloud-2.0-zhibinwang-zuul</module>
         <module>springcloud-2.0-zhibinwang-swagger2</module>
+        <module>springccloud-2.0-zhibinwang-pay</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

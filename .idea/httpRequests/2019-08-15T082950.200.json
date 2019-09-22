@@ -1,0 +1,5 @@
+[
+  "config.client.version",
+  "zuul.routes.api-c.serviceId",
+  "zuul.routes.api-c.path"
+]
